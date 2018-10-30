@@ -8,7 +8,7 @@ WebApi 2.0, criada na modelagem DDD (Domain Driven Development) utilizando a lin
 	-> Abra o Package Manager Console.
 	-> Selecione o projeto de infra.
 	-> Rodar o comando Add-Migration CriacaoDaBasePJNuvem
-	-> Rodar o comando após a criação do script Update-Database
+	-> Rodar o comando Update-Database após a criação do script feito pelo Add-Migration
 
 * Rodar script "Criacao-Usuario.sql" para criar o usuário padrão.
 * Rodar script "Criação da procedure.sql" para criar a procedure usada no retorno das varas.
@@ -20,3 +20,4 @@ WebApi 2.0, criada na modelagem DDD (Domain Driven Development) utilizando a lin
 	-> basta colocar caminhoLocalhost/swagger
 
 * OBS: É necessário a utilização do TOKEN de autenticação para realização da autorização...
+	ex: "bearer TOKEN GERADO"
