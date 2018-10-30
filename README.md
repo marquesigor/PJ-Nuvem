@@ -3,6 +3,7 @@ Projeto de cadastro de Processos Jurídicos para processo seletivo.
 
 WebApi 2.0, criada na modelagem DDD (Domain Driven Development) utilizando a linguagem c#.
 
+* É necessário mudar a string de conexão passada na WebConfig do projeto PJNuvem.Api.
 
 * Utilizando o code first, adicionar migration LevantamentoDaBase no Package Manager Console.
 	-> Abra o Package Manager Console.
