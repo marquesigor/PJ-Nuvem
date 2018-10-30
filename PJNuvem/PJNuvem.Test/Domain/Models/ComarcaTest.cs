@@ -3,7 +3,6 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using PJNuvem.Domain.Model;
 using System;
 
-
 namespace PJNuvem.Domain.Test.Domain.Models
 {
     [TestCategory("Comarca")]

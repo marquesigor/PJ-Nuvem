@@ -121,6 +121,8 @@
     <Compile Include="Domain\Models\UsuarioTest.cs" />
     <Compile Include="Domain\Models\VaraTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Domain\ValueObjects\EmailTest.cs" />
+    <Compile Include="Domain\ValueObjects\NomeTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />

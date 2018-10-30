@@ -13,8 +13,8 @@ namespace PJNuvem.Domain.ValueObjects
             UltimoNome = ultimoNome;
 
             new AddNotifications<Nome>(this)
-                .IfNullOrInvalidLength(item => item.PrimeiroNome, 1, 50, Messages_PT_BR.X0_OBRIGATORIO_E_DEVE_CONTER_ENTRE_X1_E_X2_CARACTERES.ToFormat("Primeiro nome", "3", "50"))
-                .IfNullOrInvalidLength(item => item.UltimoNome, 1, 100, Messages_PT_BR.X0_OBRIGATORIO_E_DEVE_CONTER_ENTRE_X1_E_X2_CARACTERES.ToFormat("Último nome", "3", "100"));
+                .IfNullOrInvalidLength(item => item.PrimeiroNome, 1, 50, Messages_PT_BR.X0_OBRIGATORIO_E_DEVE_CONTER_ENTRE_X1_E_X2_CARACTERES.ToFormat("Primeiro nome", "1", "50"))
+                .IfNullOrInvalidLength(item => item.UltimoNome, 1, 100, Messages_PT_BR.X0_OBRIGATORIO_E_DEVE_CONTER_ENTRE_X1_E_X2_CARACTERES.ToFormat("Último nome", "1", "100"));
         }
 
         public string PrimeiroNome { get; private set; }
