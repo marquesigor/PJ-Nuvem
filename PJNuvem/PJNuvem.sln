@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PJNuvem.IoC", "PJNuvem.IoC\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PJNuvem.Api", "PJNuvem.Api\PJNuvem.Api.csproj", "{F30FC2E7-96B6-4D1F-84BB-E8D21F274CED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PJNuvem.Test", "PJNuvem.Test\PJNuvem.Test.csproj", "{B59616B2-81E3-49DC-8CD3-5E1CE1DC867A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{F30FC2E7-96B6-4D1F-84BB-E8D21F274CED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F30FC2E7-96B6-4D1F-84BB-E8D21F274CED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F30FC2E7-96B6-4D1F-84BB-E8D21F274CED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B59616B2-81E3-49DC-8CD3-5E1CE1DC867A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B59616B2-81E3-49DC-8CD3-5E1CE1DC867A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B59616B2-81E3-49DC-8CD3-5E1CE1DC867A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B59616B2-81E3-49DC-8CD3-5E1CE1DC867A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -44,8 +44,6 @@ namespace PJNuvem.Domain.Model
             Email = email;
             Nome = nome;
             PerfilId = perfilId;
-
-            ValidaModelUsuario();
         }
 
         private void ValidaModelUsuario()
